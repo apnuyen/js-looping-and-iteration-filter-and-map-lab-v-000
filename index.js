@@ -4,13 +4,14 @@ function driversWithRevenueOver(driver, revenue) {
 }
 
 function driverNamesWithRevenueOver() {
-  
+  let driverNames = driversWithRevenueOver(driver, revenue).map(function (element) {return element['name'];});
+  return driverNames
 }
 
 function exactMatch() {
-  
+
 }
 
 function exactMatchToList() {
-  
+
 }
