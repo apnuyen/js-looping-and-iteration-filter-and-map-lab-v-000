@@ -15,5 +15,6 @@ function exactMatch(driver, object) {
 }
 
 function exactMatchToList(driver, object) {
+  return exactMatch(driver, object).map(function(element) {return element['name'];});
 
 }
